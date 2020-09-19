@@ -3,10 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Jordan Briney</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .box {
+          float: left;
+          width: 33.33%;
+          padding: 50px;
+        }
+        
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
 </head>
 <body>
-
+    <style>
+        body {
+           background-image: url("background.jpg");
+        }
+     </style>
 <header>
     <h1><strong>Jordan Briney</strong></h1>
     <h2><a href="index.html"> Home </a>&nbsp;&nbsp;
@@ -15,3 +36,23 @@
         <a href="contact.html"> Contact </a>&nbsp;&nbsp;
         <a href="https://drive.google.com/file/d/1iH62BPvDggwNJJnSe7p9r6J60BdPM8jL/view?usp=sharing"> Resume </a></h2>
 </header>
+<main>
+    <div class="clearfix">
+        <div class="box">
+            <p><strong>EDUCATION</strong> </p>
+            <p>University Of Michigan, Ann Arbor <br> School of Information: Bachelor of Science <br> UX/UI/Product Design<br>Biology Minor</p>
+        </div>
+        <div class="box">
+        <p><strong>EXPERIENCE</strong></p>
+        <p>Client Service Representative @ <em>PlatformQ</em> <br> Production Assistant @ <em>Big Ten Network</em> <br> Ambassador @ <em>The Black Sheep</em></p>
+        </div>
+        <div class="box">
+        <p><strong>ME</strong></p>
+        <p>Avid Boston sports fan <br> Amateur Chef <br> Waterskiier <br> Creator, Designer, Leader</p>
+        </div>
+      </div>
+    </div>
+</main>
+
+</body>
+</html>
